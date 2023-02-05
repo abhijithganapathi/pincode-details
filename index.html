@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/689dd39088.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-image" style="background-image: url('https://i.dailymail.co.uk/1s/2022/01/24/00/53286139-0-image-a-33_1642985367841.jpg');
+height: 90vh">
+    <div class="container my-5">
+        <h1 class="text-center text-light mt-5 pt-5">Pincode Details</h1>
+        <form class="rounded container w-50 p-5 mt-1 text-center">
+            <div class="form-group">
+                <input id="pininput" type="text" class="form-control" id="textInput" placeholder="Enter Pincode" />
+            </div>
+            <button onclick="search()" type="button" class="btn btn-primary mt-3">Search</button>
+        </form>
+        <div id="result0" class="rounded container w-50 mt-2 text-center"></div>
+        <div id="result1" class="rounded container w-50 mt-2 text-center"></div>
+        <div id="result2" class="rounded container w-50 mt-2 text-center"></div>
+    </div>
+</body>
+<script src="./pindet.js"></script>
+</html>
